@@ -38,5 +38,4 @@ const PostReducers = (state = intial, action) => {
             return state;
     }
 }
-
 export default PostReducers;

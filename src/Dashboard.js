@@ -80,7 +80,8 @@ class dashbord extends Component {
                             <button className="btn btn-sm btn-outline-danger float-right" onClick={this.closeModal}>CANCEL</button>
                         </div>
                     </div>
-                </Modal>
+                    
+                </Modal>  
             </React.Fragment>
         )
     }

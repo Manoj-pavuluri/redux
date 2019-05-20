@@ -6,6 +6,7 @@ import Dashbord from './dashbord';
 
 configure({ adapter: new Adapter() });
 
+
 describe("<App/>", () => {
   it("To test the switch and routes in App.js", () => {
     const wrapper = shallow(<App />);

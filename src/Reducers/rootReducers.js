@@ -5,5 +5,4 @@ import PostReducers from './postReducers';
 const rootReducers = combineReducers({
       PostReducers
  })
-
 export default rootReducers;

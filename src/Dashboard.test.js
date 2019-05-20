@@ -8,6 +8,7 @@ import { ToastContainer } from 'react-toastify';
 configure({ adapter: new Adapter() });
 
 describe("<Dasboard/>", () => {
+
     it("To check the model", () => {
         const wrapper = shallow(<Dashboard />);
         expect(wrapper.find(Modal))
